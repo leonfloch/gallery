@@ -76,12 +76,23 @@ WSGI_APPLICATION = 'firstapp.wsgi.application'
 
 DATABASES = {
     # Local
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'postgres',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'admin',
+    #     'HOST': 'localhost',
+    #     'PORT': '5432'
+    # }
+
+    #Amazon
+
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'NAME': 'fhxkyhks',
+        'USER': 'fhxkyhks',
+        'PASSWORD': '9tIVVJ-ceVtIg_qWpII4fksRsQov8yrw',
+        'HOST': 'stampy.db.elephantsql.com',
         'PORT': '5432'
     }
 }
